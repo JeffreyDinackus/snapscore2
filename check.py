@@ -22,7 +22,7 @@ def short_click(x, y):
 while True == True:
 
   short_click(280,500)
-  time.sleep(.3)
-  short_click(690,722)
-  time.sleep(.3)
-  short_click(651,1070)
+#   time.sleep(.3)
+#   short_click(690,722)
+#   time.sleep(.3)
+#   short_click(651,1070)
