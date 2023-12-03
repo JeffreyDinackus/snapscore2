@@ -22,12 +22,12 @@ def short_click(x, y):
 
 i = 0
 
-while True == True:
+while i <= 4000:
 
   # short_click(280,500)
 #   time.sleep(.3)
   short_click(335,830)
-  time.sleep(.3)
+  time.sleep(.15)
 #   short_click(651,1070)
   print(i)
   i+=1
