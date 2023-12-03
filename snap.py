@@ -19,7 +19,7 @@ def long_click(x, y, z, q, duration=2000):
 def short_click(x, y):
     adb_command(f'input tap {x} {y}')
 
-while i < 400:
+while i < total_sends:
 
   short_click(542,1777)
 
@@ -48,3 +48,4 @@ while i < 400:
 
   time.sleep(1.5)
   i+=1
+  print(i)
