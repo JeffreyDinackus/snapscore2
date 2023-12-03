@@ -6,7 +6,8 @@ import time
 
 i = 0
 
-total_sends = 100
+total_send = 30
+
 def adb_command(command):
     subprocess.run(['adb', 'shell', command])
 
@@ -19,7 +20,7 @@ def long_click(x, y, z, q, duration=2000):
 def short_click(x, y):
     adb_command(f'input tap {x} {y}')
 
-while i < total_sends:
+while i < total_send:
 
   short_click(542,1777)
 
@@ -32,9 +33,10 @@ while i < total_sends:
 
   short_click(931,2063)
 
-  time.sleep(1)
+  time.sleep(2)
 
-  short_click(978, 1226)
+#   short_click(978, 1226)
+  short_click(965,1334)
   # time.sleep(.5)
 
 
