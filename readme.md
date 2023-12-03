@@ -1,6 +1,6 @@
 # snapscore2
 
-### Don't forget to star the project if it helped you
+# Don't forget to star the project if it helped you
 
 This project was inspired by the project snapscore by my friend Hassan.
 
