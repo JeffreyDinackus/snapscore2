@@ -32,7 +32,7 @@ while i < total_sends:
 
   short_click(931,2063)
 
-  time.sleep(.75)
+  time.sleep(1)
 
   short_click(978, 1226)
   # time.sleep(.5)
